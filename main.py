@@ -1,16 +1,13 @@
-# This is a sample Python script.
+def move_zeros_to_end(arr):
+    non_zero_count = 0
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+    # Iterate through the array, moving non-zero elements to the front.
+    for i in range(len(arr)):
+        if arr[i] != 0:
+            arr[non_zero_count], arr[i] = arr[i], arr[non_zero_count]
+            non_zero_count += 1
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+# Example usage:
+arr = [1, 9, 8, 4, 0, 0, 2, 7, 0, 6, 0]
+move_zeros_to_end(arr)
+print(arr)
