@@ -16,7 +16,7 @@ def can_complete_tasks(tasks, D, min_work):
             days += 1
             current_work = task
 
-    days += 1  # Count the last day
+    days += 1  
     return days <= D
 
 def min_work_per_day(tasks, D):
