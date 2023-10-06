@@ -35,3 +35,4 @@ n = 5
 result = find_smallest_number_with_trailing_zeros(n)
 print("Smallest number with at least", n, "trailing zeros:", result)
 print("Smallest number with at least", n, "trailing zeros:", result)
+print("Smallest number with at least", n, "trailing zeros:", result)
