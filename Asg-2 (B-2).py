@@ -9,13 +9,12 @@ Problem Statement : Implement a problem of maximize Profit by trading stocks bas
 def max_profit(prices):
     n = len(prices)
     profit = 0
-    buy = prices[0]  # Initialize buy price to the first day's price
+    buy = prices[0]
 
     for i in range(1, n):
         if prices[i] > prices[i - 1]:
-            # If the price is increasing, sell the stock at the current day
             profit += prices[i] - buy
-        buy = prices[i]  # Update the buy price for the next day
+        buy = prices[i]
 
     return profit
 
