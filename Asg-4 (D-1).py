@@ -1,3 +1,8 @@
+'''---------------------------------------------------------------------------------------------------------------------------------------------
+Problem Statement :Given an array of integers arr[], The task is to find all its subsets.
+The subset cannot contain duplicate elements, so any repeated subset should be considered only once in the output.
+---------------------------------------------------------------------------------------------------------------------------------------------'''
+
 def subsets(arr):
     def backtrack(start, path):
         result.append(path[:])
