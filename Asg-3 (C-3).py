@@ -1,3 +1,10 @@
+'''---------------------------------------------------------------------------------------------------------------------------------------------
+Problem Statement :Given two strings s1 and s2 (all letters in uppercase). Check if it is possible to convert s1 to s2 by
+ performing following operations.
+1. Make some lowercase letters uppercase.
+2. Delete all the lowercase letters.
+---------------------------------------------------------------------------------------------------------------------------------------------'''
+
 def can_convert(s1, s2):
     m, n = len(s1), len(s2)
 
