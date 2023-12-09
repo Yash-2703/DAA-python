@@ -20,7 +20,7 @@ def find_smallest_number_with_trailing_zeros(n):
             divisor *= 5
         return zeros
 
-    left, right = 0, n * 5  # Set an initial search range
+    left, right = 0, n * 5
     while left < right:
         mid = (left + right) // 2
         if factorial_zeros(mid) < n:
