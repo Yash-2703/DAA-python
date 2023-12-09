@@ -2,7 +2,7 @@
 Problem Statement : Implement a problem of minimum work to be done per day to finish given tasks within D days problem.
                     -Given an array task[] of size N denoting amount of work to be done for each task, the problem
                      is to find the minimum amount of work to be done on each day so that all the tasks can be completed in at
-                     most D days. Note: On one day work can be done for only one task.
+                     most D days. Note: On one day work can be done for only one task..
 ---------------------------------------------------------------------------------------------------------------------------------------------'''
 
 

@@ -20,7 +20,7 @@ def max_shops_to_visit(shops, k):
             visited += 1
             prev_shop = i
         if visited == k:
-            break  # All persons have visited a shop
+            break
 
     return visited
 
