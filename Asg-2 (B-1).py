@@ -10,11 +10,10 @@ Problem Statement: Implement a problem of activity selection problem with K pers
 def max_shops_to_visit(shops, k):
     n = len(shops)
 
-    # Sort the shops by closing times
     shops.sort(key=lambda x: x[1])
 
-    visited = 1  # First shop is always visited
-    prev_shop = 0  # Index of the last visited shop
+    visited = 1
+    prev_shop = 0
 
     for i in range(1, n):
         if shops[i][0] > shops[prev_shop][1]:
